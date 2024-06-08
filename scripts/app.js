@@ -12,6 +12,7 @@ function init(){
     console.log("hello world");
     sayHello();
     sayGoobye();    
+    // this is something new
    
 }
 
