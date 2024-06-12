@@ -1,19 +1,15 @@
-function sayHello(){
-    console.log("Hello there");
-    return;    
-}
-
-function sayGoobye()
-{
-    console.log("bye bye");
+function saveTask(){
+    console.log("Saving tasks");
 }
 
 function init(){
-    console.log("hello world");
-    sayHello();
-    sayGoobye();    
-    // this is something new
-   
+    console.log("task manager")
+
+    //load data
+
+    //hook the events
+    $("#btnSave").click(saveTask);
+
 }
 
 window.onload = init;
